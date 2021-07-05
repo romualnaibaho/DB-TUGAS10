@@ -1,0 +1,13 @@
+---
+CREATE DATABASE importdata;
+
+---
+CREATE TABLE buahbuahan (
+	id_buah INT(10) PRIMARY KEY,
+	nama_buah VARCHAR(50),
+	varietas VARCHAR(50)
+);
+
+
+---
+source C:\xampp\mysql\bin\buahbuahan.sql;
